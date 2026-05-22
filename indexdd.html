@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DealDropIndia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- HEADER -->
+<header id="hdr">
+  <nav>
+    <a href="#" class="logo">Deal<span>Drop</span></a>
+    <ul class="nav-links">
+      <li><a href="#sneakers">👟 Sneakers</a></li>
+      <li><a href="#headphones">🎧 Audio</a></li>
+      <li><a href="#phones">📱 Phones</a></li>
+      <li><a href="#watches">⌚ Watches</a></li>
+    </ul>
+    <button class="hmbg" id="hmbg" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mnav" id="mnav">
+    <a href="#sneakers" onclick="closeM()">👟 Sneakers</a>
+    <a href="#headphones" onclick="closeM()">🎧 Audio</a>
+    <a href="#phones" onclick="closeM()">📱 Phones</a>
+    <a href="#watches" onclick="closeM()">⌚ Watches</a>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="blob b1"></div><div class="blob b2"></div>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="badge"><span class="dot"></span> Prices Updated · May 2026</div>
+      <h1>India's <em>Lowest Prices</em> on Top Brands</h1>
+      <p>We track Nike, Adidas, boAt, Sony, Samsung &amp; Apple across Amazon &amp; Flipkart — so you always get the best deal.</p>
+      <div class="hero-btns">
+        <a href="#sneakers" class="btn btn-p">See Deals ↓</a>
+        <a href="#phones" class="btn btn-o">View Phones</a>
+      </div>
+      <div class="hero-stats">
+        <div><div class="sn">500<span>+</span></div><div class="sl">Products Tracked</div></div>
+        <div><div class="sn">6<span>+</span></div><div class="sl">Top Brands</div></div>
+        <div><div class="sn">Daily</div><div class="sl">Price Updates 🔄</div></div>
+      </div>
+    </div>
+
+    <!-- EMOJI HERO CARDS -->
+    <div class="hero-cards">
+      <a href="#sneakers" class="hcard hc1"><span class="em">👟</span><h4>Nike &amp; Adidas</h4></a>
+      <a href="#headphones" class="hcard hc2"><span class="em">🎧</span><h4>boAt &amp; Sony</h4></a>
+      <a href="#phones" class="hcard hc3"><span class="em">📱</span><h4>Samsung &amp; Apple</h4></a>
+      <a href="#watches" class="hcard hc4"><span class="em">⌚</span><h4>Smartwatches</h4></a>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORY TABS -->
+<div class="cats">
+  <div class="cat-row">
+    <button class="ctab active" onclick="goTo('sneakers',this)">👟 Sneakers</button>
+    <button class="ctab" onclick="goTo('headphones',this)">🎧 Headphones</button>
+    <button class="ctab" onclick="goTo('phones',this)">📱 Phones</button>
+    <button class="ctab" onclick="goTo('watches',this)">⌚ Watches</button>
+    <button class="ctab" onclick="goTo('reviews',this)">⭐ Reviews</button>
+  </div>
+</div>
+
+<!-- ══ SNEAKERS ══ -->
+<section class="sec" id="sneakers" style="background:var(--grey)">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="label">Nike &amp; Adidas</span>
+      <h2>Top Sneakers — Lowest Prices</h2>
+      <p>Tracked daily from Amazon &amp; Flipkart India. Last updated May 2026.</p>
+    </div>
+
+    <div class="feat-hero-light reveal">
+      <div class="feat-img-light">
+        <img src="nike-air-max-270.jpg" alt="Nike Air Max 270"/>
+      </div>
+      <div class="feat-info-light">
+        <span class="label">🔥 Today's Best Deal</span>
+        <h2>Nike Air Max 270</h2>
+        <p>Nike's first lifestyle Air Max. Large heel Air unit, breathable mesh upper — ultimate all-day comfort and iconic street style.</p>
+        <div class="feat-price-light"><s>₹16,995</s> ₹13,995 <span class="off-dark">18% OFF</span></div>
+        <div class="feat-meta-light">⭐ 4.4/5 (2,100+ ratings) · 🛒 Lowest on Flipkart · Updated May 2026</div>
+        <div class="hero-btns">
+          <a href="https://www.flipkart.com/nike-air-max-270-sneakers-men/p/itm9e520b21c570f" target="_blank" class="btn btn-p">Buy on Flipkart 🔗</a>
+          <a href="https://www.amazon.in/s?k=nike+air+max+270" target="_blank" class="btn btn-o">Check Amazon</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid3">
+      <article class="pcard reveal">
+        <div class="pthumb">
+          <img src="nike-air-max-270.jpg" alt="Nike Air Max 270"/>
+          <button class="wish">🤍</button><span class="ptag">NIKE</span>
+        </div>
+        <div class="pbody">
+          <div class="stars">★★★★☆ <span>(4.4 · 2,100+)</span></div>
+          <h3>Nike Air Max 270</h3>
+          <p>Large heel Air unit, breathable mesh — comfort meets streetwear style.</p>
+          <div class="pfoot">
+            <span class="pprice">₹13,995</span>
+            <a href="https://www.flipkart.com/nike-air-max-270-sneakers-men/p/itm9e520b21c570f" target="_blank" class="pbtn">Flipkart 🔗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard reveal">
+        <div class="pthumb">
+          <img src="adidas-ultraboost-22.jpg" alt="Adidas Ultraboost 22"/>
+          <button class="wish">🤍</button><span class="ptag">ADIDAS</span>
+        </div>
+        <div class="pbody">
+          <div class="stars">★★★★★ <span>(4.5 · 1,800+)</span></div>
+          <h3>Adidas Ultraboost 22</h3>
+          <p>Primeknit+ upper, Boost cushioning, 20% more energy return.</p>
+          <div class="pfoot">
+            <span class="pprice">₹17,999</span>
+            <a href="https://www.flipkart.com/q/adidas-ultraboost-22" target="_blank" class="pbtn">Flipkart 🔗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard reveal">
+        <div class="pthumb">
+          <img src="nike-air-force-1.jpg" alt="Nike Air Force 1"/>
+          <button class="wish">🤍</button><span class="ptag">NIKE</span>
+        </div>
+        <div class="pbody">
+          <div class="stars">★★★★★ <span>(4.6 · 3,200+)</span></div>
+          <h3>Nike Air Force 1</h3>
+          <p>The iconic classic. Leather upper, Air cushioning, timeless street style.</p>
+          <div class="pfoot">
+            <span class="pprice">₹8,495</span>
+            <a href="https://www.amazon.in/s?k=nike+air+force+1" target="_blank" class="pbtn">Amazon 🔗</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══ HEADPHONES ══ -->
+<section class="sec" id="headphones" style="background:var(--dark)">
+  <div class="container">
+    <span class="label" style="color:var(--blue)">boAt &amp; Sony</span>
+    <h2 style="color:#fff;margin-bottom:.6rem">Best Headphones — Lowest Prices</h2>
+    <p style="color:rgba(255,255,255,.6);margin-bottom:2.5rem">Budget boAt to premium Sony — tracked daily. Last updated May 2026.</p>
+
+    <div class="feat-hero reveal">
+      <div class="feat-img">
+        <img src="sony-xm6.png" alt="Sony WH-1000XM6"/>
+      </div>
+      <div class="feat-info">
+        <span class="label">👑 Premium Pick</span>
+        <h2>Sony WH-1000XM6</h2>
+        <p style="color:rgba(255,255,255,.65)">The new king of ANC headphones. 12-mic AI noise cancelling, foldable design, LDAC Hi-Res audio. Launched in India 2025.</p>
+        <div class="hpfeats">
+          <div class="hpf"><span class="ic">🔇</span> Industry-leading ANC (12 Mics · QN3 Chip)</div>
+          <div class="hpf"><span class="ic">🔋</span> 30-Hour Battery Life</div>
+          <div class="hpf"><span class="ic">📻</span> Hi-Res Audio + LDAC</div>
+          <div class="hpf"><span class="ic">📦</span> Foldable + Magnetic Case</div>
+        </div>
+        <!-- Launch price Rs.39,990 per Smartprix -->
+        <div class="feat-price"><s>₹39,990</s> ₹36,990 <span class="off">7% OFF</span></div>
+        <div class="feat-meta">⭐ 4.6/5 · 🛒 Lowest on Amazon · Updated May 2026</div>
+        <a href="https://www.amazon.in/s?k=sony+wh+1000xm6" target="_blank" class="btn btn-b">Buy on Amazon 🔗</a>
+      </div>
+    </div>
+
+    <div class="hp-row">
+      <div class="hpc reveal">
+        <div class="hpc-img"><img src="boat-rockerz-550.jpg" alt="boAt Rockerz 550"/></div>
+        <div class="hpc-info">
+          <h4>boAt Rockerz 550</h4>
+          <p>20hr battery · 50MM drivers · Over-ear · Flipkart</p>
+          <!-- Price confirmed ₹1,499 per Smartprix May 2026 -->
+          <div class="hpc-price">₹1,499</div>
+        </div>
+        <a href="https://www.flipkart.com/q/boat-rockerz-550" target="_blank" class="pbtn" style="margin-left:auto">Flipkart 🔗</a>
+      </div>
+
+      <div class="hpc reveal">
+        <div class="hpc-img"><img src="boat-rockerz-550-plus.jpg" alt="boAt Rockerz 550 Plus"/></div>
+        <div class="hpc-info">
+          <h4>boAt Rockerz 550 Plus</h4>
+          <p>ANC · 120hr battery · Premium build · Amazon</p>
+          <div class="hpc-price">₹2,599</div>
+        </div>
+        <a href="https://www.amazon.in/s?k=boat+rockerz+550+plus" target="_blank" class="pbtn" style="margin-left:auto">Amazon 🔗</a>
+      </div>
+
+      <div class="hpc reveal">
+        <div class="hpc-img"><img src="sony-xm5.jpg" alt="Sony WH-1000XM5"/></div>
+        <div class="hpc-info">
+          <h4>Sony WH-1000XM5</h4>
+          <p>30hr ANC · LDAC · Previous flagship · Amazon</p>
+          <!-- ₹29,529 per Smartprix May 2026 -->
+          <div class="hpc-price">₹29,529</div>
+        </div>
+        <a href="https://www.amazon.in/s?k=sony+wh+1000xm5" target="_blank" class="pbtn" style="margin-left:auto">Amazon 🔗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PHONES ══ -->
+<section class="sec" id="phones" style="background:#fff">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="label">Samsung &amp; Apple</span>
+      <h2>Best Smartphones — Lowest Prices</h2>
+      <p>Real prices from Amazon &amp; Flipkart India — updated May 2026.</p>
+    </div>
+
+    <div class="phone-wrap">
+      <div class="phone-visual rl">
+        <div class="phone-img-wrap">
+          <img src="samsung-s25.jpg" alt="Samsung Galaxy S25"/>
+        </div>
+      </div>
+      <div class="rr">
+        <span class="label">🔥 Featured Deal</span>
+        <h2 style="margin-bottom:.7rem">Samsung Galaxy S25</h2>
+        <p style="margin-bottom:1.3rem">6.2" Dynamic AMOLED 2X · 120Hz · Snapdragon 8 Elite · 50MP triple camera. India's top Android flagship of 2025.</p>
+        <div class="specs">
+          <div class="spbx"><div class="si">📷</div><div class="sv">50MP</div><div class="sn2">Triple Camera</div></div>
+          <div class="spbx"><div class="si">⚡</div><div class="sv">4000mAh</div><div class="sn2">Battery</div></div>
+          <div class="spbx"><div class="si">🧠</div><div class="sv">12GB</div><div class="sn2">RAM</div></div>
+          <div class="spbx"><div class="si">🖥️</div><div class="sv">6.2"</div><div class="sn2">120Hz AMOLED</div></div>
+        </div>
+        <p style="font-size:.82rem;color:var(--muted);margin-bottom:.7rem">⭐ 4.5/5 · 🛒 Lowest on Amazon · Updated May 2026</p>
+        <!-- ₹74,999 per Samsung India & Croma confirmed -->
+        <div style="font-family:'Montserrat',sans-serif;font-weight:900;font-size:1.9rem;color:var(--dark);margin-bottom:1rem">₹74,999</div>
+        <div class="hero-btns">
+          <a href="https://www.amazon.in/s?k=samsung+galaxy+s25" target="_blank" class="btn btn-p">Amazon 🔗</a>
+          <a href="https://www.flipkart.com/q/samsung-galaxy-s25" target="_blank" class="btn btn-o">Flipkart 🔗</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid3">
+      <article class="pcard reveal">
+        <div class="pthumb" style="background:#edf7f0">
+          <img src="iphone-16.jpg" alt="Apple iPhone 16"/>
+          <button class="wish">🤍</button><span class="ptag">APPLE</span>
+        </div>
+        <div class="pbody">
+          <div class="stars">★★★★★ <span>(4.6 · 5K+)</span></div>
+          <h3>Apple iPhone 16</h3>
+          <p>A18 chip · 48MP Fusion camera · Dynamic Island · 6.1" OLED</p>
+          <div class="pfoot">
+            <!-- ₹66,900 per Smartprix May 2026 -->
+            <span class="pprice">₹66,900</span>
+            <a href="https://www.flipkart.com/q/apple-iphone-16" target="_blank" class="pbtn">Flipkart 🔗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard reveal">
+        <div class="pthumb" style="background:#f5f5f5">
+          <img src="samsung-s25-ultra.jpg" alt="Samsung Galaxy S25 Ultra"/>
+          <button class="wish">🤍</button><span class="ptag">SAMSUNG</span>
+        </div>
+        <div class="pbody">
+          <div class="stars">★★★★☆ <span>(4.4 · 3K+)</span></div>
+          <h3>Samsung Galaxy S25 Ultra</h3>
+          <p>200MP camera · S Pen · 6.9" AMOLED · 5000mAh</p>
+          <div class="pfoot">
+            <!-- Dropped to ₹1,19,999 per SamMobile Mar 2026 -->
+            <span class="pprice">₹1,19,999</span>
+            <a href="https://www.amazon.in/s?k=samsung+galaxy+s25+ultra" target="_blank" class="pbtn">Amazon 🔗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard reveal">
+        <div class="pthumb" style="background:#edf7f0">
+          <img src="samsung-s25.jpg" alt="Samsung Galaxy S25"/>
+          <button class="wish">🤍</button><span class="ptag">SAMSUNG</span>
+        </div>
+        <div class="pbody">
+          <div class="stars">★★★★★ <span>(4.5 · 4K+)</span></div>
+          <h3>Samsung Galaxy S25</h3>
+          <p>6.2" AMOLED · Snapdragon 8 Elite · 50MP · 4000mAh</p>
+          <div class="pfoot">
+            <span class="pprice">₹74,999</span>
+            <a href="https://www.amazon.in/s?k=samsung+galaxy+s25" target="_blank" class="pbtn">Amazon 🔗</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══ WATCHES ══ -->
+<section class="sec" id="watches" style="background:var(--grey)">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="label">Samsung &amp; Apple</span>
+      <h2>Best Smartwatches — Lowest Prices</h2>
+      <p>Apple Watch &amp; Samsung Galaxy Watch — tracked daily. Last updated May 2026.</p>
+    </div>
+
+    <div class="watch-wrap reveal">
+      <div class="watch-visual">
+        <div class="watch-img-wrap">
+          <img src="Apple10.jpg" alt="Apple Watch Series 10"/>
+        </div>
+      </div>
+      <div class="wi-info">
+        <span class="label">🔥 Best Deal</span>
+        <h2>Apple Watch Series 10</h2>
+        <p>Thinnest Apple Watch ever. Always-On Retina display, advanced health sensors, crash &amp; sleep apnea detection.</p>
+        <div class="wfeats">
+          <div class="wf"><span>❤️</span> ECG + Heart Rate</div>
+          <div class="wf"><span>🩸</span> Blood Oxygen</div>
+          <div class="wf"><span>😴</span> Sleep Apnea Detection</div>
+          <div class="wf"><span>🏃</span> 100+ Workouts</div>
+          <div class="wf"><span>💧</span> 50m Water Resistant</div>
+          <div class="wf"><span>🔋</span> 18-Hour Battery</div>
+        </div>
+        <p style="font-size:.8rem;color:rgba(255,255,255,.6);margin-bottom:.7rem">⭐ 4.7/5 · 🛒 Lowest on Amazon · May 2026</p>
+        <div class="feat-price">₹46,900</div>
+        <a href="https://www.amazon.in/s?k=apple+watch+series+10" target="_blank" class="btn btn-b" style="margin-top:1rem">Buy on Amazon 🔗</a>
+      </div>
+    </div>
+
+    <div class="wrow">
+      <div class="wcard reveal">
+        <div class="wc-img"><img src="watch7.jpg" alt="Galaxy Watch 7"/></div>
+        <div class="wc-info">
+          <h3>Samsung Galaxy Watch 7</h3>
+          <p>Advanced sleep coaching · BioActive sensor · 40mm</p>
+        </div>
+        <div class="wc-price">₹24,999</div>
+        <a href="https://www.amazon.in/s?k=samsung+galaxy+watch+7" target="_blank" class="pbtn" style="margin-left:.5rem">🔗</a>
+      </div>
+
+      <div class="wcard reveal">
+        <div class="wc-img"><img src="watchSE.jpg" alt="Apple Watch SE"/></div>
+        <div class="wc-info">
+          <h3>Apple Watch SE (2nd Gen)</h3>
+          <p>Best value Apple Watch · Crash detection · Swimproof</p>
+        </div>
+        <div class="wc-price">₹29,900</div>
+        <a href="https://www.amazon.in/s?k=apple+watch+se" target="_blank" class="pbtn" style="margin-left:.5rem">🔗</a>
+      </div>
+
+      <div class="wcard reveal">
+        <div class="wc-img"><img src="samsungUltra.jpg" alt="Galaxy Watch Ultra"/></div>
+        <div class="wc-info">
+          <h3>Samsung Galaxy Watch Ultra</h3>
+          <p>Titanium build · 60hr battery · Extreme sports ready</p>
+        </div>
+        <div class="wc-price">₹59,999</div>
+        <a href="https://www.amazon.in/s?k=samsung+galaxy+watch+ultra" target="_blank" class="pbtn" style="margin-left:.5rem">🔗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why">
+  <div class="container">
+    <div class="reveal" style="text-align:center">
+      <span class="label" style="display:block;text-align:center">Why DealDrop</span>
+      <h2>We Do the Hunting. You Do the Saving.</h2>
+    </div>
+    <div class="wgrid">
+      <div class="wi2 reveal"><div class="wicon">🔄</div><div><h4>Daily Price Tracking</h4><p>Prices change every day. We track Amazon &amp; Flipkart so you never overpay.</p></div></div>
+      <div class="wi2 reveal"><div class="wicon">🏷️</div><div><h4>Real Lowest Prices</h4><p>We verify every price before showing it. No fake MRP tricks — just real savings.</p></div></div>
+      <div class="wi2 reveal"><div class="wicon">🔗</div><div><h4>Direct Buy Links</h4><p>Every product links directly to Amazon or Flipkart. Buy with full confidence.</p></div></div>
+      <div class="wi2 reveal"><div class="wicon">📱</div><div><h4>Works on Any Device</h4><p>Fully responsive — browse deals on phone, tablet, or desktop. Always fast.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testi" id="reviews">
+  <div class="container">
+    <div class="reveal" style="text-align:center">
+      <span class="label" style="display:block;text-align:center">Reviews</span>
+      <h2>What Our Users Say</h2>
+    </div>
+    <div class="tgrid">
+      <div class="tc reveal">
+        <div class="stars">★★★★★</div>
+        <p class="tc-txt">Found Nike Air Max 270 for ₹3,000 cheaper than my local store. DealDrop paid for itself in one purchase!</p>
+        <div class="tc-auth"><div class="tc-av" style="background:var(--blue)">👨</div><div><div class="tc-name">Arjun Mehta</div><div class="tc-role">Sneaker Lover · Delhi</div></div></div>
+      </div>
+      <div class="tc reveal">
+        <div class="stars">★★★★★</div>
+        <p class="tc-txt">Got the Sony WH-1000XM6 the exact moment the price dropped. The alert saved me ₹3,000!</p>
+        <div class="tc-auth"><div class="tc-av" style="background:var(--mocha-l)">👩</div><div><div class="tc-name">Priya Sharma</div><div class="tc-role">Music Enthusiast · Mumbai</div></div></div>
+      </div>
+      <div class="tc reveal">
+        <div class="stars">★★★★★</div>
+        <p class="tc-txt">Best deal tracker in India. Bought iPhone 16 at the lowest price. Super easy to use on mobile too!</p>
+        <div class="tc-auth"><div class="tc-av" style="background:var(--grey-m)">🧑</div><div><div class="tc-name">Rohan Verma</div><div class="tc-role">Tech Enthusiast · Bangalore</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="nl">
+  <div class="container reveal">
+    <span class="label" style="color:rgba(255,255,255,.6);display:block;text-align:center">Price Alerts</span>
+    <h2>Get Deal Alerts Before Anyone Else</h2>
+    <p>We'll notify you the moment prices drop on Nike, Sony, Apple, Samsung &amp; more.</p>
+    <div class="nl-form">
+      <input type="email" id="nle" placeholder="Enter your email" aria-label="Email"/>
+      <button class="btn" onclick="subscribe()">Subscribe ✉️</button>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="fgrid">
+    <div class="fb">
+      <span class="logo">Deal<span>Drop</span></span>
+      <p>India's best price tracker for Nike, Adidas, boAt, Sony, Samsung &amp; Apple. Lowest prices from Amazon &amp; Flipkart — updated daily.</p>
+    </div>
+    <div class="fc"><h4>Shop</h4><ul>
+      <li><a href="#sneakers">Sneakers</a></li>
+      <li><a href="#headphones">Headphones</a></li>
+      <li><a href="#phones">Smartphones</a></li>
+      <li><a href="#watches">Smartwatches</a></li>
+    </ul></div>
+    <div class="fc"><h4>Brands</h4><ul>
+      <li><a href="#sneakers">Nike</a></li>
+      <li><a href="#sneakers">Adidas</a></li>
+      <li><a href="#headphones">boAt</a></li>
+      <li><a href="#headphones">Sony</a></li>
+    </ul></div>
+    <div class="fc"><h4>More</h4><ul>
+      <li><a href="#phones">Samsung</a></li>
+      <li><a href="#phones">Apple</a></li>
+      <li><a href="#watches">Galaxy Watch</a></li>
+      <li><a href="#watches">Apple Watch</a></li>
+    </ul></div>
+  </div>
+  <div class="fbot">
+    <p>© 2026 <span>DealDrop</span> · Built for DecodeLabs Internship | Project 1: Responsive Frontend Interface By Yash Raj</p>
+  </div>
+</footer>
+
+<div class="toast" id="toast">✅ <span id="tmsg">Done!</span></div>
+<script src="app.js"></script>
+</body>
+</html>
